@@ -1,0 +1,20 @@
+---
+title: "Untitled"
+author: "Nate Nicholson"
+date: "3/29/2022"
+output: html_document
+---
+#I apologize for my terrible spelling, I didn't know the words were spelt wrong before I imported the data.
+```{r}
+print(desert.r.markdown...Sheet1)
+```
+
+```{r}
+summary(desert.r.markdown...Sheet1)
+library(ggplot2)
+library(Rmisc)
+```
+```{r}
+dessertGraphScatter<-ggplot(desert.r.markdown...Sheet1, aes(Desert.Score, Quality.Ate))+geom_point()
+print(dessertGraphScatter)
+```
